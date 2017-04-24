@@ -17,6 +17,7 @@ Requirements:
  - numpy
  - python2.7
 
+ - Pre-trained embedding: https://drive.google.com/open?id=0BzMCqpcgEJgiUWs0ZnU0NlFTam8<br>
 --------
 
 Datasets (in dataset folder):
