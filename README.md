@@ -9,13 +9,13 @@ https://github.com/carpedm20/lstm-char-cnn-tensorflow/blob/master/models/TDNN.py
 Source code for the paper: 
 
 ----------
-Requirements:
+Requirements: python2.7 and the fallowing python libraries:
 ==================
 
- - Tensorflow  1.0.0
- - gensim 0.13.2
- - numpy
- - python2.7
+ - Tensorflow  1.0.0: sudo pip install tensorflow
+ - gensim 0.13.2: sudo pip install gensim==0.13.2
+ - numpy: sudo pip install numpy
+
 
 --------
 
