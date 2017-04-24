@@ -17,6 +17,7 @@ Requirements:
  - numpy
  - python2.7
 
+Download the pre-embedding and store it in an embedding repository.
 --------
 
 Datasets (in dataset folder):
