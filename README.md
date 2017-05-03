@@ -16,7 +16,7 @@ Requirements:
  - gensim 0.13.2 : pip install gensim==0.13.2
  - numpy : pip install numpy
  - python2.7
- - pre-trained embedding: download from https://drive.google.com/open?id=0BzMCqpcgEJgiUWs0ZnU0NlFTam8 and put it into embeddings folder
+ - pre-trained embedding: download from https://drive.google.com/open?id=0BzMCqpcgEJgiUWs0ZnU0NlFTam8, create an embedding repository inside the GRAM-CNN repository, and uncompress the downloaded file inside the embedding repository.
 --------
 
 Datasets (in dataset folder):
