@@ -16,7 +16,7 @@ Requirements:
  - gensim 0.13.2 : pip install gensim==0.13.2
  - numpy : pip install numpy
  - python2.7
- - pre-trained embedding: download from https://drive.google.com/open?id=0BzMCqpcgEJgiUWs0ZnU0NlFTam8 and put it into embeddings folder
+ - pre-trained embedding: download from https://drive.google.com/open?id=0BzMCqpcgEJgiUWs0ZnU0NlFTam8, create an embedding repository inside the GRAM-CNN repository, and uncompress the downloaded file inside the embedding repository.
 --------
 
 Datasets (in dataset folder):
@@ -47,7 +47,7 @@ Infer GRAMCNN example:
 ======================
 > - To test the pre-trained model, just replace train.py with infer.py
 ~~~~
-> python infer.py --train ../dataset/NLPBA/train/train.eng --dev ../dataset/NLPBA/train/dev.eng --test ../dataset/NLPBA/test/Genia4EReval1.iob2 --pre_emb ../embeddings/bio_nlp_vec/PubMed-shuffle-win-30.bin -W 675 -H 12 -D 0.5 --lower 1 -A 0 --tag_scheme iob -P 0 -S 0 -w 200 -K 2,3,4 -k 40,40,40
+> python infer.py --train ../dataset/NLPBA/train/train.eng --dev ../dataset/NLPBA/train/dev.eng --test ../dataset/NLPBA/test/Genia4EReval1.iob2 --pre_emb ../embeddings/bio_nlp_vec/PubMed-shuffle-win-30.bin -W 675 -H 12 -D 0.5 --lower 1 -A 0 --tag_scheme iob -P 1 -S 1 -w 200 -K 2,3,4 -k 40,40,40
 ~~~~
 
 Example pre-trained model:
