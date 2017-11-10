@@ -16,8 +16,10 @@ Requirements:
  - gensim 0.13.2
  - numpy
  - python2.7
+ 
+ Please download the bio embedding and store it in ../embeddings/bio_nlp_vec/PubMed-shuffle-win-30.bin
 
-Please download the bio embedding and store it in ../embeddings/bio_nlp_vec/PubMed-shuffle-win-30.bin
+
 --------
 
 Datasets (in dataset folder):
